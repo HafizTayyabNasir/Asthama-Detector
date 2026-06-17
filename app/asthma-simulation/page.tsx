@@ -184,7 +184,7 @@ export default function AsthmaSimulation() {
   }, [showDashboard, inputs.allergy, inputs.pollution, riskScore]);
 
   return (
-    <div className="min-h-screen bg-gray-950 text-gray-100 font-sans py-12 px-4 sm:px-6">
+    <div className="min-h-screen bg-gray-950 text-gray-100 font-sans pt-24 pb-12 px-4 sm:px-6">
       <div className="max-w-4xl mx-auto space-y-12">
         
         {/* HEADER */}
