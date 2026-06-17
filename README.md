@@ -29,4 +29,3 @@ Continue building your app on:
 3. Changes are automatically pushed to this repository
 4. Vercel deploys the latest version from this repository
 
-<!-- Maintenance Update 2 -->
