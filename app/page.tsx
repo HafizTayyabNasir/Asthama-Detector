@@ -28,7 +28,12 @@ export default function LandingPage() {
               </Button>
               <Button asChild variant="outline" size="lg" className="h-14 px-8 text-lg rounded-full border-gray-300 hover:bg-gray-50 transition-all duration-300">
                 <Link href="/presentation">
-                  Simulation & Modelling (Presentation)
+                  Simulation & Modelling
+                </Link>
+              </Button>
+              <Button asChild variant="secondary" size="lg" className="h-14 px-8 text-lg rounded-full bg-indigo-100 text-indigo-700 hover:bg-indigo-200 transition-all duration-300">
+                <Link href="/analytics">
+                  Analytics Dashboard
                 </Link>
               </Button>
             </div>

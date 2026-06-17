@@ -1,6 +1,7 @@
 "use client"
 
 import type React from "react"
+import Link from "next/link"
 
 import { useState, useEffect } from "react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
@@ -148,6 +149,15 @@ export default function AsthmaPredictor() {
               This tool is for educational purposes and does not replace professional medical diagnosis.
             </AlertDescription>
           </Alert>
+
+          <div className="flex justify-center pt-2">
+            <Button asChild variant="outline" className="gap-2 border-indigo-200 text-indigo-700 hover:bg-indigo-50 transition-colors">
+              <Link href="/analytics">
+                <BarChart3 className="w-4 h-4" />
+                View Detailed Analytics Dashboard
+              </Link>
+            </Button>
+          </div>
           
           {/* Feature 1: Real-Time Risk Simulation Engine */}
           <motion.div 

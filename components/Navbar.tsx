@@ -17,6 +17,7 @@ export default function Navbar() {
           <Link href="/" className="text-sm font-medium text-gray-600 hover:text-blue-600 transition-colors">Home</Link>
           <Link href="/#features" className="text-sm font-medium text-gray-600 hover:text-blue-600 transition-colors">Features</Link>
           <Link href="/#how-it-works" className="text-sm font-medium text-gray-600 hover:text-blue-600 transition-colors">How it Works</Link>
+          <Link href="/asthma-simulation" className="text-sm font-medium text-gray-600 hover:text-blue-600 transition-colors">Simulation</Link>
           <Button asChild className="rounded-full shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-0.5 bg-blue-600 hover:bg-blue-700 text-white">
             <Link href="/predictor">Predict Asthma Risk</Link>
           </Button>
